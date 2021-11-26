@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My App</string>
+    <string name="loginsuccess">Đăng Nhập Thành Công</string>
+    <string name="loginerror">Đăng Nhập Thất Bại! Thử Lại</string>
+    <string name="account">Tài Khoản :</string>
+    <string name="pass">Mật Khẩu :</string>
+    <string name="login">Đăng Nhập</string>
+
+    <string name="about">Thông Tin</string>
+    <string name="name">Tên :Phạm Đình Vương</string>
+    <string name="clasS">Lớp :D18-TH10</string>
+    <string name="studentcode">MSSV :DH51806073</string>
+    <string name="email">Email :dh51806073@student.stu.edu.vn</string>
+    <string name="number">Số :</string>
+
+    <string name="productcode">Mã :</string>
+    <string name="productname">Tên :</string>
+    <string name="productdescription">Mô Tả :</string>
+    <string name="producttype">Loại :</string>
+    <string name="productprice">Giá :</string>
+    <string name="type">Loại</string>
+    <string name="unit">/sản phẩm</string>
+
+    <string name="add">+</string>
+    <string name="exit">Trở lại</string>
+    <string name="update">Cập Nhật</string>
+    <string name="delete">Xóa</string>
+
+    <string name="takepic">Chụp Hình</string>
+    <string name="choosepic">Chọn Hình</string>
+
+    <string name="del1">Xác nhận xóa</string>
+    <string name="del2">Bạn có chắc chắn muốn xóa?</string>
+    <string name="Yes">Có</string>
+    <string name="No">Không</string>
+    <string name="databinding">Dữ liệu bị ràng buộc!</string>
+    <string name="cantdel">Không thể xóa</string>
+
+    <string name="fix">Sửa thành công</string>
+
+    <string name="map_api_key">AIzaSyATJwAtVhHB5MAUd3LIfdfcOVQzxZ0NUEE</string>
+</resources>
