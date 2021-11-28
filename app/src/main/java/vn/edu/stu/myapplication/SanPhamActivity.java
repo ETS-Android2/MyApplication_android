@@ -22,7 +22,7 @@ public class SanPhamActivity extends AppCompatActivity {
     final String DATABASE_NAME = "data.db";
     SQLiteDatabase database;
 
-    ListView lvTraiCay;
+    ListView lvSanPham;
     ArrayList<SanPham> list;
     SanPhamAdapter adapter;
 
@@ -35,10 +35,10 @@ public class SanPhamActivity extends AppCompatActivity {
     }
 
     private void addControls() {
-        lvTraiCay = (ListView) findViewById(R.id.lvTraiCay);
+        lvSanPham = (ListView) findViewById(R.id.lvTraiCay);
         list = new ArrayList<>();
         adapter = new SanPhamAdapter(this, list);
-        lvTraiCay.setAdapter(adapter);
+        lvSanPham.setAdapter(adapter);
     }
 
     private void readData() {

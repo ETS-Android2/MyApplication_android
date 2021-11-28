@@ -3,22 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="700dp"
     tools:context=".UpdateLoaiActivity"
-    android:background="@drawable/img1">
+    android:background="@drawable/backgr1">
 
     <EditText
         android:id="@+id/txtLoai"
-        android:layout_width="338dp"
-        android:layout_height="40dp"
-        android:ems="10"
+        android:layout_width="344dp"
+        android:layout_height="66dp"
         android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/type"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/btnHuy"
@@ -37,25 +40,27 @@
         android:id="@+id/btnThem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#2979FF"
-        android:text="@string/add"
+        android:background="#00B0FF"
+        android:text="@string/update"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/producttype"
-        android:textSize="22sp"
+        android:textSize="40sp"
+        android:textColor="#fff"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
 </androidx.constraintlayout.widget.ConstraintLayout>

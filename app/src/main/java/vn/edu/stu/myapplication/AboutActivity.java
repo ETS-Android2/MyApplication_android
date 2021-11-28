@@ -76,7 +76,7 @@ public class AboutActivity extends AppCompatActivity implements OnMapReadyCallba
                     new String[]{
                             Manifest.permission.CALL_PHONE
                     },
-                    123
+                    1303
             );
         }
     }
@@ -84,7 +84,7 @@ public class AboutActivity extends AppCompatActivity implements OnMapReadyCallba
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == 123) {
+        if (requestCode == 1303) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 makePhoneCall();
             } else {
@@ -117,9 +117,9 @@ public class AboutActivity extends AppCompatActivity implements OnMapReadyCallba
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
         map = googleMap;
-        LatLng DHCNSG = new LatLng(10.737990732005878, 106.67781410326936);
-        map.addMarker(new MarkerOptions().position(DHCNSG).title("Marker in Đại Học Công Nghệ Sài Gòn"));
-        map.moveCamera(CameraUpdateFactory.newLatLng(DHCNSG));
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(DHCNSG,18));
+        LatLng STU = new LatLng(10.737990732005878, 106.67781410326936);
+        map.addMarker(new MarkerOptions().position(STU).title("Marker in Đại Học Công Nghệ Sài Gòn"));
+        map.moveCamera(CameraUpdateFactory.newLatLng(STU));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(STU,18));
     }
 }

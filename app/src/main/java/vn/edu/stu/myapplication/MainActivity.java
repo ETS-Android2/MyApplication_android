@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String username = "admin";
+                String username = "vuong";
                 String password = "123";
                 if (txtUserName.getText().toString().equals(username) && txtPass.getText().toString().equals(password)) {
                     Toast.makeText(getApplicationContext(), R.string.loginsuccess, Toast.LENGTH_LONG).show();
-                    //chuyen mang hinh
-                    Intent mhTraiCay = new Intent(MainActivity.this, SanPhamActivity.class);
-                    startActivity(mhTraiCay);
+
+                    Intent mh = new Intent(MainActivity.this, SanPhamActivity.class);
+                    startActivity(mh);
                 }
                 else{
                     Toast.makeText(getApplicationContext(), R.string.loginerror, Toast.LENGTH_LONG).show();

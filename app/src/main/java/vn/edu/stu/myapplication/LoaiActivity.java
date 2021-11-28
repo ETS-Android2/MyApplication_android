@@ -28,7 +28,7 @@ public class LoaiActivity extends AppCompatActivity {
     ListView lvLoai;
     ArrayList<Loai> listLoai;
     ArrayList<SanPham> listSanPham;
-    SanPhamAdapter adapterTraiCay;
+    SanPhamAdapter adapterSanPham;
     LoaiAdapter adapterLoai;
     Button btnThemLoai;
 
@@ -97,7 +97,8 @@ public class LoaiActivity extends AppCompatActivity {
                 startActivity(manghinhAbout);
 
             case R.id.exit:
-                finish();
+                Intent intentexit= new Intent(LoaiActivity.this, SanPhamActivity.class);
+                startActivity(intentexit);
         }
         return super.onOptionsItemSelected(item);
     }

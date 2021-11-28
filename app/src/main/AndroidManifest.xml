@@ -13,10 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
             android:name=".UpdateLoaiActivity"
             android:exported="false"
            />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
             android:name=".AddLoaiActivity"
             android:exported="false"
           />
@@ -29,14 +31,17 @@
             android:value="@string/map_api_key" />
 
         <activity
+
             android:name=".AddSanphamActivity"
             android:exported="false"
            />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
             android:name=".ChiTietSanphamActivity"
             android:exported="false"
            />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
             android:name=".UpdateSanPhamActivity"
             android:exported="false"
             />

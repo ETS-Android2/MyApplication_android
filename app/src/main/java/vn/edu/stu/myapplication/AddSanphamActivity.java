@@ -21,6 +21,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -39,12 +40,13 @@ public class AddSanphamActivity extends AppCompatActivity {
     final int REQUEST_CHOOSE_PHOTO = 321;
 
     SQLiteDatabase database;
-    Button btnChonHinh, btnChupHinh, btnThem, btnHuy;
+    Button  btnChonHinh, btnThem, btnHuy;
     EditText txtTen, txtMota, txtGia;
     Spinner spinner;
     ImageView imgAVT;
     ArrayList<Loai> loais;
     String loai;
+    ImageButton btnChupHinh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +59,7 @@ public class AddSanphamActivity extends AppCompatActivity {
 
     private void addControls() {
         btnChonHinh = (Button) findViewById(R.id.btnChonHinh);
-        btnChupHinh = (Button) findViewById(R.id.btnChupHinh);
+        btnChupHinh = (ImageButton) findViewById(R.id.btnChupHinh);
         btnThem = (Button) findViewById(R.id.btnThem);
         btnHuy = (Button) findViewById(R.id.btnHuy);
 

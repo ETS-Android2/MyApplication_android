@@ -21,7 +21,7 @@
     <string name="type">Type</string>
     <string name="unit">/unit</string>
 
-    <string name="add">+</string>
+    <string name="add">Add</string>
     <string name="exit">Exit</string>
     <string name="update">Update</string>
     <string name="delete">Del</string>
@@ -37,6 +37,7 @@
     <string name="cantdel">CAN\'T DELETE</string>
 
     <string name="fix">Fix Successful</string>
+    <string name="optionadd">Add product</string>
 
     <string name="map_api_key">AIzaSyATJwAtVhHB5MAUd3LIfdfcOVQzxZ0NUEE</string>
 </resources>

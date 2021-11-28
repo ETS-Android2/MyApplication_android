@@ -43,13 +43,13 @@ public class UpdateSanPhamActivity extends AppCompatActivity {
 
     SQLiteDatabase database;
 
-    Button  btnChupHinh, btnLuu, btnHuy;
+    Button btnLuu, btnHuy, btnChonHinh;
     EditText txtTen, txtMota, txtLoai, txtGia;
     ImageView imgAVT;
     Spinner spinner;
     ArrayList<Loai> loais;
     String loai;
-    ImageButton btnChonHinh;
+    ImageButton btnChupHinh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +63,8 @@ public class UpdateSanPhamActivity extends AppCompatActivity {
     }
 
     private void addControls() {
-        btnChonHinh = (ImageButton) findViewById(R.id.btnChonHinh);
-        btnChupHinh = (Button) findViewById(R.id.btnChupHinh);
+        btnChonHinh = (Button) findViewById(R.id.btnChonHinh);
+        btnChupHinh = (ImageButton) findViewById(R.id.btnChupHinh);
         btnLuu = (Button) findViewById(R.id.btnThem);
         btnHuy = (Button) findViewById(R.id.btnHuy);
 

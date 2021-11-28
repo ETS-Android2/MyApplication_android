@@ -20,9 +20,9 @@
     <string name="producttype">Loại :</string>
     <string name="productprice">Giá :</string>
     <string name="type">Loại</string>
-    <string name="unit">/sản phẩm</string>
+    <string name="unit">/sp</string>
 
-    <string name="add">+</string>
+    <string name="add">Thêm</string>
     <string name="exit">Trở lại</string>
     <string name="update">Cập Nhật</string>
     <string name="delete">Xóa</string>
@@ -34,10 +34,13 @@
     <string name="del2">Bạn có chắc chắn muốn xóa?</string>
     <string name="Yes">Có</string>
     <string name="No">Không</string>
-    <string name="databinding">Dữ liệu bị ràng buộc!</string>
+    <string name="databinding">Dữ liệu không thể xóa!</string>
     <string name="cantdel">Không thể xóa</string>
 
     <string name="fix">Sửa thành công</string>
+
+    <string name="optionadd">Thêm sản phẩm</string>
+
 
     <string name="map_api_key">AIzaSyATJwAtVhHB5MAUd3LIfdfcOVQzxZ0NUEE</string>
 </resources>

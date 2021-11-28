@@ -3,15 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/type"
+        android:icon="@drawable/type"
         android:title="@string/type"
         app:showAsAction="always" />
     <item
         android:id="@+id/add"
-        android:title="@string/add" />
+        android:title="@string/optionadd" />
     <item
         android:id="@+id/about"
         android:title="@string/about" />
     <item
         android:id="@+id/exit"
         android:title="@string/exit" />
+    <item
+        android:id="@+id/search_button"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/type"
+        app:showAsAction="ifRoom" />
+
 </menu>
