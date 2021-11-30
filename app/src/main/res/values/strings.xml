@@ -23,6 +23,7 @@
 
     <string name="add">Add</string>
     <string name="exit">Exit</string>
+    <string name="exit_button">X</string>
     <string name="update">Update</string>
     <string name="delete">Del</string>
 

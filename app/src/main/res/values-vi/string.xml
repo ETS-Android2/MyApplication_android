@@ -24,6 +24,7 @@
 
     <string name="add">Thêm</string>
     <string name="exit">Trở lại</string>
+    <string name="exit_button">X</string>
     <string name="update">Cập Nhật</string>
     <string name="delete">Xóa</string>
 
