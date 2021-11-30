@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ public class LoaiActivity extends AppCompatActivity {
     ArrayList<SanPham> listSanPham;
     SanPhamAdapter adapterSanPham;
     LoaiAdapter adapterLoai;
-    Button btnThemLoai;
+    ImageButton btnThemLoai;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +45,7 @@ public class LoaiActivity extends AppCompatActivity {
 
     private void addControls() {
 
-        btnThemLoai = (Button) findViewById(R.id.btnThemLoai);
+        btnThemLoai = (ImageButton)  findViewById(R.id.btnThemLoai);
 
         lvLoai = (ListView) findViewById(R.id.lvLoai);
         listLoai = new ArrayList<>();
